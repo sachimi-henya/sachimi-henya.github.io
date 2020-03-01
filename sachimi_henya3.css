@@ -1,0 +1,112 @@
+@charset "utf-8";
+html{
+font-size:100%;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(255,108,148);
+}
+
+ul{
+  list-style: none;
+}
+
+img{
+max-width:100%;
+}
+.bg-image{
+  background-image: url("home_image.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.main-nav{
+  display:flex;
+  justify-content:flex-end;
+  padding:50px 50px;
+}
+
+.main-nav li{
+  padding:0 20px;
+}
+
+.home-content{
+  margin:5% 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.page-title{
+  text-align:center;
+  margin:10px 0 42px;
+  color:rgba(255,108,148,0.8);
+  padding:30px 0;
+}
+
+.home-content p {
+  text-align:center;
+  max-width:800px;
+  margin:30px auto;
+  color:rgb(255,108,148);
+}
+
+.button-list{
+  display: flex;
+  justify-content:center;
+  padding:50px 0;
+}
+
+.button{
+  padding:5px 10px;
+  margin:0px 20px;
+  background-color:rgba(255,108,148,0.5);
+  color:white;
+  border-radius: 5px;
+}
+
+.button:hover{
+background-color:rgba(255,108,148,0.8);
+}
+
+.main-content{
+  display:flex;
+  justify-content:space-between;
+  margin: 60px 40px;
+}
+
+#gallery{
+  padding: 30px 0;
+}
+.gallery{
+  width:66%;
+  border-right:1px #aaaaaa solid;
+}
+
+.gallery ul{
+  display:grid;
+  padding:0 5%;
+  grid-template-columns: 40% 40%;
+  gap:10%;
+}
+
+#shutten{
+  padding:30px 0;
+}
+
+.shutten-yotei{
+  width:30%;
+}
+
+.event{
+  padding:20px 0;
+}
+
+footer h2{
+  padding-bottom: 30px;
+}
+
+#contact{
+  background-color: #aaaaaa;
+  padding:40px 20px;
+  color:white;
+}
